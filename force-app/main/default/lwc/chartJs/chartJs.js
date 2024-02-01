@@ -21,7 +21,6 @@ export default class ChartJs extends LightningElement {
             this.chart = new window.Chart(ctx, JSON.parse(JSON.stringify(this.chartConfig)));
             this.chart.canvas.parentNode.style.height = 'auto';
             this.chart.canvas.parentNode.style.width = '70%';
-            this.chart.canvas.parentNode.style.ALIGN = 'center';
         })
         .catch(error => {
             this.dispatchEvent(
