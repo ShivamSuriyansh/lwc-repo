@@ -2,7 +2,7 @@
     <article class="slds-card">
         <div class="slds-card__body slds-card__body_inner slds-p-around_none">
             <div class="slds-grid slds-gutters">
-                <div class="slds-col slds-size_1-of-3 slds-p-around_x-small">
+                <div class="slds-col slds-size_1-of-3 slds-var-p-around_x-small">
                     <div class="slds-box" lwc:dom="manual" style="position: relative;
                         margin: auto;
                         margin-left: 0;
@@ -11,4 +11,9 @@
             </div>
         </div>
     </article>
+    <lightning-button 
+      variant="neutral"
+      label="fetch student marks" 
+      onclick={handleClick} 
+    ></lightning-button>
 </template>

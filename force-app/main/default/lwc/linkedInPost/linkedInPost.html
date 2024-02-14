@@ -1,0 +1,14 @@
+<template>
+    <lightning-card icon-name="standard:account" variant="base">
+        <lightning-input 
+          type="text"
+          label="Enter Post Text"
+          onchange={handleChange}
+        ></lightning-input><br/>
+        <lightning-button 
+          variant="neutral"
+          label="Post to LinkedIn" 
+          onclick={Post} 
+        ></lightning-button>
+    </lightning-card>
+</template>
