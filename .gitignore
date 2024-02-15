@@ -47,3 +47,17 @@ $RECYCLE.BIN/
 #github ignore file
 .gitignore
 .forceignore
+
+
+#some more folders
+lwc
+layouts
+aura
+applications
+contentassets
+flexipages
+objects
+permissionsets
+staticresources
+tabs
+triggers
