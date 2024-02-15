@@ -1,6 +1,6 @@
 public with sharing class stripeCheckout {
     public static String stripe_endpoint = 'https://api.stripe.com';
-    public static String STRIPE_APIKEY = 'sk_test_51OixYESIpwdiuats0p60fqedajQe9Z2wdyudqGOOBhLj0hv0ICSa0Q3Lh7S0XQq2qmCwPwdxbg5LRrZQ9MxYB3oo00z6q4Cgjf';
+    public static String STRIPE_APIKEY = System.Label.StripeKey;
 
 
     public static void create_payment_intent(){
